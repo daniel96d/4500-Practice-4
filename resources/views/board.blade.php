@@ -7,10 +7,8 @@
 @stop
 
 @section('content')
-
-<div class="container-fluid">
   <div class="row">
-    //Backlog block
+
     <div class="col-md-3 col-sm-6 col-12">
       <div class="card card-row card-secondary">
         <div class="card-header">
@@ -119,7 +117,7 @@
       </div>
       ::after
     </div>
-    /*To DO block*/
+
     <div class="col-md-3 col-sm-6 col-12">
       <div class="card card-row card-secondary">
         <div class="card-header">
@@ -145,7 +143,7 @@
          </div>
        </div>
      </div>
-    //In progress block
+
     <div class="col-md-3 col-sm6 col-12">
       <div class="card card-row card-default">
         <div class="card-header bg-inf">
@@ -175,7 +173,7 @@
         </div>
       </div>
     </div>
-    //Done block
+
     <div class="col-nd-3 col-sm-6 col-12">
       <div class="card card-row card0success">
         <div class="card-header">
@@ -199,9 +197,6 @@
         ::after
       </div>
     </div>
-   </div>
-  </div>
-</div>
 
 
 @stop
