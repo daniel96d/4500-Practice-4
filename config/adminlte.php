@@ -243,19 +243,18 @@ return [
         ],
         [
             'text' => 'To Do\'s',
-            'url'  => 'admin/To_Dos'
+            'url'  => 'admin/To_Dos',
+            'icon' => 'far fa-list-alt',
         ],
         [
             'text'        => 'Calendar',
             'url'         => 'admin/calendar',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
+            'icon'        => 'far fa-calendar-alt',
         ],
         [
             'text' => 'Board',
             'url'  => 'admin/board',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-clipboard',
         ],
     ],
 
