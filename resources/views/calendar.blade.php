@@ -31,6 +31,7 @@ $( document ).ready(function() {
       initialView: 'dayGridMonth',
       events: '/events-feed'
     });
+    calendar.getEventSources();
     calendar.render();
 })
 </script>
