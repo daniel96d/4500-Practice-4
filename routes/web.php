@@ -27,3 +27,6 @@ Route::get('/admin/board', function () {
 Route::get('/events-feed', function () {
     return response()->file(resource_path('assets/js/data/events.json')) ;
 });
+Route::fallback(function () {
+    return view('/admin/emergency')
+}
