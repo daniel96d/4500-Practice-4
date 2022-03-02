@@ -243,12 +243,12 @@ return [
         ],
         [
             'text' => 'To Do\'s',
-            'url'  => 'admin/To_Dos',
+            'url'  => 'admin/todos',
             'icon' => 'far fa-list-alt',
         ],
         [
             'text'        => 'Calendar',
-            'url'         => 'admin/calendar',
+            'url'         => 'admin/schedule',
             'icon'        => 'far fa-calendar-alt',
         ],
         [
