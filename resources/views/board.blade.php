@@ -34,7 +34,7 @@
             <div class="custom-controll custom-checkbox">
               <input class="custom-control-input" type="checkbox"
               id="customCheckbox1" disabled>
-              <label for="customCheckbox1" class="custom-controllabel">
+              <label for="customCheckbox1" class="custom-control-label">
                 ::before
                 "BUG"
                 ::after
@@ -43,7 +43,7 @@
             <div class="custom-controll custom-checkbox">
               <input class="custom-control-input" type="checkbox"
               id="customCheckbox2" disabled>
-              <label for="customCheckbox2" class="custom-controllabel">
+              <label for="customCheckbox2" class="custom-control-label">
                 ::before
                 "Feature"
                 ::after
@@ -52,7 +52,7 @@
             <div class="custom-controll custom-checkbox">
               <input class="custom-control-input" type="checkbox"
               id="customCheckbox3" disabled>
-              <label for="customCheckbox3" class="custom-controllabel">
+              <label for="customCheckbox3" class="custom-control-label">
                 ::before
                 "Enhancement"
                 ::after
@@ -61,7 +61,7 @@
             <div class="custom-controll custom-checkbox">
               <input class="custom-control-input" type="checkbox"
               id="customCheckbox4" disabled>
-              <label for="customCheckbox4" class="custom-controllabel">
+              <label for="customCheckbox4" class="custom-control-label">
                 ::before
                 "Documentation"
                 ::after
@@ -70,7 +70,7 @@
             <div class="custom-control custom-checkbox">
               <input class="custom-control-input" type="checkbox"
               id="customCheckbox5" disabled>
-              <label for="customCheckbox5" class="custom-controllabel">
+              <label for="customCheckbox5" class="custom-control-label">
                 ::before
                 "Examples"
                 ::after
@@ -122,7 +122,7 @@
       <div class="card card-row card-secondary">
         <div class="card-header">
             <h3 class="card-title"> To Do </h3>
-            ::after
+
         </div>
            <div class="card-body">
              <div class="card card-primary card-outline">
@@ -132,14 +132,14 @@
                  <a href="#" class="btn btn-tool btn-link">#5</a>
                  <a href="#" class="btn btn-tool">
                    <i class="fas fa-pen">
-                     ::before
+
                    </i>
                  </a>
                </div>
-               ::after
+
              </div>
            </div>
-           ::after
+      
          </div>
        </div>
      </div>
