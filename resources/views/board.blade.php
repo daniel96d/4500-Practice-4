@@ -15,7 +15,6 @@
             <h3 class="card-title"> Backlog </h3>
         </div>
 
-        //first subbox for backlog
         <div class="card-body">
           <div class="card card-info card-outline">
             <div class="card-header">
@@ -117,14 +116,11 @@
                  <a href="#" class="btn btn-tool btn-link">#5</a>
                  <a href="#" class="btn btn-tool">
                    <i class="fas fa-pen">
-
                    </i>
                  </a>
                </div>
-
              </div>
            </div>
-
          </div>
        </div>
      </div>
@@ -154,7 +150,7 @@
     </div>
 
     <div class="col-nd-3 col-sm-6 col-12">
-      <div class="card card-row card0success">
+      <div class="card card-row card-success">
         <div class="card-header">
           <h3 class="card-title"> Done </h3>
         </div>
