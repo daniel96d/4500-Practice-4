@@ -24,3 +24,6 @@ Route::get('/admin/schedule', function () {
 Route::get('/admin/board', function () {
     return view('board');
 });
+Route::get('/events-feed', function () {
+    return response()->file(resource_path('assets/js/data/events')) ;
+});
