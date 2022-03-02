@@ -26,36 +26,38 @@
                   </i>
                 </a>
               </div>
-            </div class="card-body">
-            <div class="custom-control custom-checkbox">
+            </div>
+            <div class="card-body">
+              <div class="custom-control custom-checkbox">
               <input class="custom-control-input" type="checkbox" id="customCheckbox1" disabled>
               <label for="customCheckbox1" class="custom-control-label">
                 "BUG"
               </label>
-            </div>
-            <div class="custom-control custom-checkbox">
+              </div>
+              <div class="custom-control custom-checkbox">
               <input class="custom-control-input" type="checkbox" id="customCheckbox2" disabled>
               <label for="customCheckbox2" class="custom-control-label">
                 "Feature"
               </label>
-            </div>
-            <div class="custom-control custom-checkbox">
+              </div>
+              <div class="custom-control custom-checkbox">
               <input class="custom-control-input" type="checkbox" id="customCheckbox3" disabled>
               <label for="customCheckbox3" class="custom-control-label">
                 "Enhancement"
               </label>
-            </div>
-            <div class="custom-control custom-checkbox">
+              </div>
+              <div class="custom-control custom-checkbox">
               <input class="custom-control-input" type="checkbox" id="customCheckbox4" disabled>
               <label for="customCheckbox4" class="custom-control-label">
                 "Documentation"
               </label>
-            </div>
-            <div class="custom-control custom-checkbox">
+              </div>
+              <div class="custom-control custom-checkbox">
               <input class="custom-control-input" type="checkbox" id="customCheckbox5" disabled>
               <label for="customCheckbox5" class="custom-control-label">
                 "Examples"
               </label>
+              </div>
             </div>
           </div>
         <div class="card card-primary card-outline">
@@ -69,41 +71,43 @@
                 </i>
               </a>
             </div>
-          </div class="card-body">
-          <div class="custom-control custom-checkbox">
+          </div>
+          <div class="card-body">
+            <div class="custom-control custom-checkbox">
             <input class="custom-control-input" type="checkbox" id="customCheckbox1" disabled>
             <label for="customCheckbox1" class="custom-control-label">
               "BUG Report"
             </label>
-          </div>
-          <div class="custom-control custom-checkbox">
+            </div>
+            <div class="custom-control custom-checkbox">
             <input class="custom-control-input" type="checkbox" id="customCheckbox2" disabled>
             <label for="customCheckbox2" class="custom-control-label">
               "Feature request"
             </label>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+
     <div class="col-md-3 col-sm-6 col-12">
       <div class="card card-row card-secondary">
         <div class="card-header">
             <h3 class="card-title"> To Do </h3>
-
         </div>
-           <div class="card-body">
-             <div class="card card-primary card-outline">
-               <div class+"card-header".
-               <h5 class+"card-title">Create first milestone</h5>
-               <div class="card-tools">
-                 <a href="#" class="btn btn-tool btn-link">#5</a>
-                 <a href="#" class="btn btn-tool">
-                   <i class="fas fa-pen">
-                   </i>
-                 </a>
-               </div>
+        <div class="card-body">
+          <div class="card card-primary card-outline">
+            <div class+"card-header".
+              <h5 class+"card-title">Create first milestone</h5>
+              <div class="card-tools">
+                <a href="#" class="btn btn-tool btn-link">#5</a>
+                <a href="#" class="btn btn-tool">
+                  <i class="fas fa-pen">
+                  </i>
+                </a>
+              </div>
              </div>
            </div>
          </div>
