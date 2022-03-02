@@ -22,3 +22,6 @@ Route::get('/schedule', function () {
 Route::get('/board', function () {
     return view('board');
 });
+Route::get('/', function () {
+    return view('welcome');
+}
