@@ -28,41 +28,35 @@
               </div>
             </div class="card-body">
             <div class="custom-controll custom-checkbox">
-              <input class="custom-control-input" type="checkbox"
-              id="customCheckbox1" disabled>
+              <input class="custom-control-input" type="checkbox" id="customCheckbox1" disabled>
               <label for="customCheckbox1" class="custom-control-label">
                 "BUG"
               </label>
             </div>
             <div class="custom-controll custom-checkbox">
-              <input class="custom-control-input" type="checkbox"
-              id="customCheckbox2" disabled>
+              <input class="custom-control-input" type="checkbox" id="customCheckbox2" disabled>
               <label for="customCheckbox2" class="custom-control-label">
                 "Feature"
               </label>
             </div>
             <div class="custom-controll custom-checkbox">
-              <input class="custom-control-input" type="checkbox"
-              id="customCheckbox3" disabled>
+              <input class="custom-control-input" type="checkbox" id="customCheckbox3" disabled>
               <label for="customCheckbox3" class="custom-control-label">
                 "Enhancement"
               </label>
             </div>
             <div class="custom-controll custom-checkbox">
-              <input class="custom-control-input" type="checkbox"
-              id="customCheckbox4" disabled>
+              <input class="custom-control-input" type="checkbox" id="customCheckbox4" disabled>
               <label for="customCheckbox4" class="custom-control-label">
                 "Documentation"
               </label>
             </div>
             <div class="custom-control custom-checkbox">
-              <input class="custom-control-input" type="checkbox"
-              id="customCheckbox5" disabled>
+              <input class="custom-control-input" type="checkbox" id="customCheckbox5" disabled>
               <label for="customCheckbox5" class="custom-control-label">
                 "Examples"
               </label>
             </div>
-            ::after
           </div>
         </div>
 
