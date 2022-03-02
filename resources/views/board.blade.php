@@ -58,8 +58,6 @@
               </label>
             </div>
           </div>
-        </div>
-
         <div class="card card-primary card-outline">
           <div class="card-header">
             <h5 class="card-title">Create Issue template</h5>
@@ -87,6 +85,7 @@
         </div>
       </div>
     </div>
+  </div>
 
     <div class="col-md-3 col-sm-6 col-12">
       <div class="card card-row card-secondary">
