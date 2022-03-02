@@ -71,27 +71,19 @@
                 </i>
               </a>
             </div>
-            ::after
           </div class="card-body">
           <div class="custom-control custom-checkbox">
-            <input class="custom-control-input" type="checkbox"
-            id="customCheckbox1" disabled>
-            <label for="customCheckbox1" class="custom-controllabel">
-              ::before
+            <input class="custom-control-input" type="checkbox" id="customCheckbox1" disabled>
+            <label for="customCheckbox1" class="custom-control-label">
               "BUG Report"
-              ::after
             </label>
           </div>
           <div class="custom-controll custom-checkbox">
-            <input class="custom-control-input" type="checkbox"
-            id="customCheckbox2" disabled>
-            <label for="customCheckbox2" class="custom-controllabel">
-              ::before
+            <input class="custom-control-input" type="checkbox" id="customCheckbox2" disabled>
+            <label for="customCheckbox2" class="custom-control-label">
               "Feature request"
-              ::after
             </label>
           </div>
-          ::after
         </div>
       </div>
     </div>
