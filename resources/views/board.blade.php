@@ -197,7 +197,7 @@
         ::after
       </div>
     </div>
-
+  </div>
 
 @stop
 
