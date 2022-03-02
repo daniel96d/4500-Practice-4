@@ -18,9 +18,9 @@ Route::get('/', function () {
 Route::get('/admin/todos', function () {
     return view('todos');
 });
-Route::get('/schedule', function () {
+Route::get('/admin/schedule', function () {
     return view('calendar');
 });
-Route::get('/board', function () {
+Route::get('/admin/board', function () {
     return view('board');
 });
