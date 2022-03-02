@@ -67,7 +67,6 @@
               <a href="#" class="btn btn-tool btn-link">#4</a>
               <a href="#" class="btn btn-tool">
                 <i class="fas fa-pen">
-                  ::before
                 </i>
               </a>
             </div>
@@ -99,8 +98,8 @@
         </div>
         <div class="card-body">
           <div class="card card-primary card-outline">
-            <div class+"card-header".
-              <h5 class+"card-title">Create first milestone</h5>
+            <div class="card-header".
+              <h5 class="card-title">Create first milestone</h5>
               <div class="card-tools">
                 <a href="#" class="btn btn-tool btn-link">#5</a>
                 <a href="#" class="btn btn-tool">
@@ -116,7 +115,7 @@
 
     <div class="col-md-3 col-sm6 col-12">
       <div class="card card-row card-default">
-        <div class="card-header bg-inf">
+        <div class="card-header bg-info">
         </div>
         <div class="card-body">
           <div class="card card-light card-outline">
