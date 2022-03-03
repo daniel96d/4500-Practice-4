@@ -60,3 +60,7 @@ Route::get('/db-test',function () {
     echo 'Nne';
   }
 });
+Route::get('/db-migrate', function(){
+  Artisan::call('migrate');
+  echo Artisan::output();
+});
