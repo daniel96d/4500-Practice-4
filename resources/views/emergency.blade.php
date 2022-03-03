@@ -1,13 +1,40 @@
 @extends('adminlte::page')
 
-@section('title', '')
+@section('title', 'fallback')
 
 @section('content_header')
-    <h1>Header</h1>
+    <h1>Error</h1>
 @stop
 
 @section('content')
-    <p>Content here</p>
+    <div class="error-page">
+      <h2 class="headline text-warning"> 404</h2>
+      <div class="error-content">
+        <h3>
+          <i class="fas fa-exlamation-triangle tex-warning">
+          </i>
+          " OOPS! Page not found."
+        </h3>
+        <p>
+          "We could not find the page you were looking for. Meanwhile, you may"
+          <a href="/">return to dashboard</a>
+          " or try using the search form. "
+        </p>
+        <form class="search-form">
+          <div class="input-group">
+            <input type="text" name="search" class="form-control" placeholder="Search">
+            <div class="input-gorup-append">
+              <button type="submit" name="submit" class="btn btn-warning">
+                <i class="fas fa-search">
+                </i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
 @stop
 
 @section('css')
@@ -15,5 +42,5 @@
 @stop
 
 @section('js')
-    <script> console.log('Hi!'); </script>
+    <script> console.log('hi'); </script>
 @stop
