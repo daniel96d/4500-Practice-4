@@ -3,7 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-$events = array("title"=>"CSE4500 Class","start"=>"2022=02-23T17:30:00","end"=>"2022-02-23T18:45:00");
+
   //array("title"=>"CSE4500 Class","start"=>"2022=02-28T17:30:00","end"=>"2022-02-28T18:45:00")
 //);
 /*
@@ -43,9 +43,20 @@ Route::get('/admin/board', function () {
     return view('board');
 });
 Route::get('/events-feed', function () {
+    $events = array("title"=>"CSE4500 Class","start"=>"2022=02-23T17:30:00","end"=>"2022-02-23T18:45:00");
     echo json_encode($events);
     return $events;
 });
 Route::fallback(function () {
     return view('emergency');
+});
+
+Route::get('/db-test',function () {
+  try{
+    \DB::connection()->getPDO();
+    $db_name = \DB::connection()->getDatabaseName();
+    echo 'Database Connected: '.$db_name;
+  } catch (\Exception $e){
+    echo 'Nne';
+  }
 });
