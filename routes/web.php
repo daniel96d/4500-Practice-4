@@ -43,7 +43,7 @@ Route::get('/admin/board', function () {
     return view('board');
 });
 Route::get('/events-feed', function () {
-    echo json_encode($events);
+    //echo json_encode($events);
     return $events;
 });
 Route::fallback(function () {
