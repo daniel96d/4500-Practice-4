@@ -44,8 +44,16 @@ Route::get('/admin/board', function () {
 });
 Route::get('/events-feed', function () {
     $events = array(
-      array("title"=>"CSE4500 Class","start"=>"2022-02-23T17:30:00","end"=>"2022-02-23T18:45:00"),
-      array("title"=>"CSE4500 Class","start"=>"2022-02-28T17:30:00","end"=>"2022-02-28T18:45:00")
+      array(
+        "title"=>"CSE4500 Class",
+        "start"=>"2022-02-23T17:30:00",
+        "end"=>"2022-02-23T18:45:00"
+      ),
+      array(
+        "title"=>"CSE4500 Class",
+        "start"=>"2022-02-28T17:30:00",
+        "end"=>"2022-02-28T18:45:00"
+      )
     );
     return json_encode($events);
 });
@@ -60,7 +68,7 @@ Route::get('/db-test',function () {
     $db_name = \DB::connection()->getDatabaseName();
     echo 'Database Connected: '.$db_name;
   } catch (\Exception $e){
-    echo 'Nne';
+    echo 'None';
   }
 });
 Route::get('/db-migrate', function(){
