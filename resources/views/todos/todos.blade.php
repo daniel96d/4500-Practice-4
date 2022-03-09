@@ -17,7 +17,7 @@
       </thead>
       <tbody>
 
-        @foreach($todos AS $todo)
+        @foreach($todo AS $todo)
         <tr>
           <td>{{ $todo->id }}</td>
           <td>{{ $todo->title }}</td>
