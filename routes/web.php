@@ -56,7 +56,11 @@ Route::get('/events-feed', function () {
         "end"=>"2022-02-28T18:45:00"
       )
     );*/
-    $events = Event::select('title', 'startTime AS start', 'endTime AS end')->get();
+
+    //foreach(Calendar::all() as $events)
+
+    $events = Calendar::select('title', 'startTime AS start', 'endTime AS end')->get();
+
     return json_encode($events);
 });
 Route::fallback(function () {
