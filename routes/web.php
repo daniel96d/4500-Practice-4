@@ -56,7 +56,7 @@ Route::get('/events-feed', function () {
         "end"=>"2022-02-28T18:45:00"
       )
     );*/
-    $events = Event::select('title', 'startTime AS start', 'endTime AS end')->get();
+    $events = Event::select('title', 'start AS startTime', 'end AS endTime')->get();
     return json_encode($events);
 });
 Route::fallback(function () {
