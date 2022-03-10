@@ -10,7 +10,7 @@
 <form method="post" action="{{ route('calendar.store') }}" >
     @csrf
     <x-adminlte-input name="title" label="Title" />
-    
+
     <x-adminlte-button type="Submit" label="Submit" />
 </form>
 @stop
