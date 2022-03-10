@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Calendar //Added this to tell the controller where to go.
+use App\Models\Calenda; //Added this to tell the controller where to go.
 
 class CalendarController extends Controller
 {
