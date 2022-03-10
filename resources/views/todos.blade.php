@@ -34,7 +34,7 @@
             </div>
           </td>
           <td>
-            <a class="btn btn-default btn-sm" href="{{ route('todos.show', ['todo'=>>$todo->id])}}">
+            <a class="btn btn-default btn-sm" href="{{ route('todos.show',['todo'=>$todo->id]) }}">
               view
             </a>
           </td>
