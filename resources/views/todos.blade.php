@@ -29,7 +29,7 @@
           <td>{{ $todo->title }}</td>
           <td>
             <div class="progress progress-xs">
-              <div class="progress-bar progress-bar-danger" style = width: {{ $todo->progress }}%>
+              <div class="progress-bar progress-bar-danger" style="width: {{ $todo->progress }}%">
               </div>
             </div>
           </td>
