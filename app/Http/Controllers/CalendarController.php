@@ -42,7 +42,7 @@ class CalendarController extends Controller
            'end' => 'required'
       ]);
 
-      $todo = calendar::create([
+      $calendar = calendar::create([
            'title' => $request->title,
            'start' => $request->startTime,
            'end' => $request->endTime
