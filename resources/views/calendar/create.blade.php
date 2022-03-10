@@ -11,6 +11,7 @@
     @csrf
     <x-adminlte-input name="title" label="Title" />
     <x-adminlte-input name="start" type="datetime-local" min="2022-01-01T00:00" max="2023-01-01T00:00" label="Start" />
+    <x-adminlte-input name="end" type="datetime-local" min="2022-01-01T00:00" max="2023-01-01T00:00" label="Start" />
     <x-adminlte-button type="Submit" label="Submit" />
 </form>
 @stop

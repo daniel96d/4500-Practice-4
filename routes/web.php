@@ -44,7 +44,7 @@ Route::get('/board', function () {
     return view('board');
 });
 Route::get('/events-feed', function () {
-    $events = array(
+    /*$events = array(
       array(
         "title"=>"CSE4500 Class",
         "start"=>"2022-02-23T17:30:00",
@@ -55,7 +55,8 @@ Route::get('/events-feed', function () {
         "start"=>"2022-02-28T17:30:00",
         "end"=>"2022-02-28T18:45:00"
       )
-    );
+    );*/
+    $events = Event::select('title', 'startTime AS start', 'endTime AS end')->get();
     return json_encode($events);
 });
 Route::fallback(function () {
