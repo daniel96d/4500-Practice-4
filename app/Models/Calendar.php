@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Calendar extends Model
 {
     use HasFactory;
-    protected $fillable = ['title', 'starTime', 'endTime'];
+    protected $fillable = ['title', 'startTime', 'endTime'];
 }
-//models look for the pural form of table 
+//models look for the pural form of table
