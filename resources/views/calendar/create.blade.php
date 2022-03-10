@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-<form method="post" action="{{ route('todos.store') }}" >
+<form method="post" action="{{ route('calendar.store') }}" >
     @csrf
     <x-adminlte-input name="title" label="Title" />
     <x-adminlte-input type="datetime-local" id="meeting-time"
@@ -18,9 +18,4 @@
 @stop
 
 @section('js')
-<script>
-    $(document).ready(function() {
-        $('#table').DataTable();
-    } );
-</script>
 @stop
