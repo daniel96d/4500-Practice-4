@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Calenda; //Added this to tell the controller where to go.
+use App\Models\Calendar; //Added this to tell the controller where to go.
 
 class CalendarController extends Controller
 {
@@ -42,7 +42,7 @@ class CalendarController extends Controller
            'end' => 'required'
       ]);
 
-      $calendar = calendar::create([
+      $calendar = Calendar::create([
            'title' => $request->title,
            'start' => $request->startTime,
            'end' => $request->endTime
@@ -57,7 +57,7 @@ class CalendarController extends Controller
      */
     public function show($id)
     {
-      $calendar= calendar::find($id);
+      $calendar= Calendar::find($id);
       return view('calendar.show',compact('schedule'));
     }
 
