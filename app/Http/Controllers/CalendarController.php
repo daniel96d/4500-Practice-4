@@ -39,14 +39,14 @@ class CalendarController extends Controller
       //not finished
       $validated = $request->validate([
            'title' => 'required',
-           'start' => 'required',
-           'end' => 'required'
+           'startTime' => 'required',
+           'endTime' => 'required'
       ]);
 
       $calendar = Calendar::create([
            'title' => $request->title,
-           'start' => $request->startTime,
-           'end' => $request->endTime
+           'startTime' => $request->startTime,
+           'endTime' => $request->endTime
       ]);
 
       return view('calendar');
