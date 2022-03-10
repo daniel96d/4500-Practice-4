@@ -24,7 +24,7 @@ class TodoController extends Controller
      */
     public function create()
     {
-        return view('calendar.create');
+        return view('schedule.create');
     }
 
     /**
@@ -42,7 +42,7 @@ class TodoController extends Controller
            'end' => 'required'
       ]);
 
-      $todo = calendar::create([
+      $todo = schedule::create([
            'title' => $request->title,
            'start' => $request->start,
            'end' => $request->end
@@ -57,8 +57,8 @@ class TodoController extends Controller
      */
     public function show($id)
     {
-      $calendar= Calendar::find($id);
-      return view('calendar.show',compact('calendar'));
+      $calendar= schedule::find($id);
+      return view('schedule.show',compact('calendar'));
     }
 
     /**
