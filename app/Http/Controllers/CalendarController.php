@@ -14,7 +14,8 @@ class CalendarController extends Controller
      */
     public function index()
     {
-        //
+        $calendar = Calendar::all();
+        return view('caledar', compact('calendar'));
     }
 
     /**
@@ -47,6 +48,8 @@ class CalendarController extends Controller
            'start' => $request->start_Time,
            'end' => $request->end_Time
       ]);
+
+      return view('calendar');
     }
 
     /**
