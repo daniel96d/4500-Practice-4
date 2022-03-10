@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Calendar //Added this to tell the controller where to go.
 
-class TodoController extends Controller
+class CalendarController extends Controller
 {
     /**
      * Display a listing of the resource.
