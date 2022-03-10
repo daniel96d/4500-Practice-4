@@ -243,17 +243,17 @@ return [
         ],
         [
             'text' => 'To Do\'s',
-            'url'  => 'admin/todos',
+            'url'  => '/todos',
             'icon' => 'far fa-list-alt',
         ],
         [
             'text'        => 'Calendar',
-            'url'         => 'admin/schedule',
+            'url'         => '/schedule',
             'icon'        => 'far fa-calendar-alt',
         ],
         [
             'text' => 'Board',
-            'url'  => 'admin/board',
+            'url'  => '/board',
             'icon' => 'fas fa-clipboard',
         ],
     ],
