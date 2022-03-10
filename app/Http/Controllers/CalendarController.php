@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Calendar //Added this to tell the controller where to go.
 
 class TodoController extends Controller
 {
@@ -23,7 +24,7 @@ class TodoController extends Controller
      */
     public function create()
     {
-        //
+        return view('calendar.create');
     }
 
     /**
@@ -34,7 +35,18 @@ class TodoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      //not finished
+      $validated = $request->validate([
+           'title' => 'required',
+           'start' => 'required',
+           'end' => 'required'
+      ]);
+
+      $todo = calendar::create([
+           'title' => $request->title,
+           'start' => $request->start,
+           'end' => $request->end
+      ]);
     }
 
     /**
@@ -45,7 +57,8 @@ class TodoController extends Controller
      */
     public function show($id)
     {
-        //
+      $calendar= Calendar::find($id);
+      return view('calendar.show',compact('calendar'));
     }
 
     /**

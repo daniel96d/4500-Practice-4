@@ -33,7 +33,7 @@ use App\Http\Controllers\TodoController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/todos', function () {
+Route::get('/admin/todos', function () {
     return view('todos');
 });
 Route::get('/admin/schedule', function () {
