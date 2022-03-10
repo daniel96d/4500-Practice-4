@@ -2,7 +2,8 @@
 
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\TodoController;
+use App\Http\Controllers\CalendarController;
 
 
 //);
@@ -80,3 +81,7 @@ Route::get('/db-migrate', function () {
     Artisan::call('migrate');
     echo Artisan::output();
 });
+
+Route::resource('/todos', TodoController::class);
+
+Route::resource('/calendar', CalendarController::class);
