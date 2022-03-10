@@ -11,11 +11,16 @@
     @csrf
     <x-adminlte-input name="title" label="Title" />
 
-    <label for="meeting-time">Choose a time for your event:</label>
-    <input type="datetime-local" id="meeting-time"
-       name="meeting-time" value="2018-06-12T19:30"
-       min="2018-06-07T00:00" max="2018-06-14T00:00">
-
+    <div>
+      <label for="meeting-time">Choose a start Time:</label>
+      <input type="start" id="meeting-time"
+        name="meeting-time" value="2018-06-12T19:30"
+        min="2018-06-07T00:00" max="2018-06-14T00:00">
+      <label for="meeting-time">Choose an End Time:</label>
+      <input type="end" id="meeting-time"
+         name="meeting-time" value="2018-06-12T19:30"
+         min="2018-06-07T00:00" max="2018-06-14T00:00">
+    </div>
     <x-adminlte-button type="Submit" label="Submit" />
 </form>
 @stop
