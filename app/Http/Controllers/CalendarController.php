@@ -44,8 +44,8 @@ class CalendarController extends Controller
 
       $todo = calendar::create([
            'title' => $request->title,
-           'start' => $request->start,
-           'end' => $request->end
+           'start' => $request->startTime,
+           'end' => $request->endTime
       ]);
     }
 
@@ -58,7 +58,7 @@ class CalendarController extends Controller
     public function show($id)
     {
       $calendar= calendar::find($id);
-      return view('calendar.show',compact('scheudle'));
+      return view('calendar.show',compact('schedule'));
     }
 
     /**
