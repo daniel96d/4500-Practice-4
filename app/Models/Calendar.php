@@ -10,3 +10,4 @@ class Calendar extends Model
     use HasFactory;
     protected $fillable = ['title', 'starTime', 'endTime'];
 }
+//models look for the pural form of table 
