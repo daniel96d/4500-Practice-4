@@ -2,7 +2,7 @@
 
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TodoController;
+
 
 
 //);
@@ -36,7 +36,7 @@ Route::get('/', function () {
 Route::get('/admin/todos', function () {
     return view('todos');
 });
-Route::get('/schedule', function () {
+Route::get('/admin/schedule', function () {
     return view('calendar');
 });
 Route::get('/admin/board', function () {
@@ -76,4 +76,7 @@ Route::get('/db-migrate', function(){
   echo Artisan::output();
 });
 
-Route::resource('/todos', TodoController::class);
+Route::get('/db-migrate', function () {
+    Artisan::call('migrate');
+    echo Artisan::output();
+});
