@@ -59,7 +59,7 @@ Route::get('/events-feed', function () {
 
     //foreach(Calendar::all() as $events)
 
-    $events = Calendar::select('title', 'startTime AS start', 'endTime AS end')->get();
+    $events = calendar::select('title', 'startTime AS start', 'endTime AS end')->get();
 
     return json_encode($events);
 });
