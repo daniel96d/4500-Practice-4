@@ -4,7 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
 use App\Http\Controllers\CalendarController;
-use App\Http\Models\Calendar;
+use App\Http\Calendar;
 
 //);
 /*
@@ -59,7 +59,7 @@ Route::get('/events-feed', function () {
 
     //foreach(Calendar::all() as $events)
 
-    $events = Calendar::select('title', 'startTime AS start', 'endTime AS end')->get();
+    $events = Calendar::select(['title', 'startTime AS start', 'endTime AS end'])->get();
 
     return json_encode($events);
 });
@@ -84,4 +84,4 @@ Route::get('/db-migrate', function(){
 
 Route::resource('/todos', TodoController::class);
 
-Route::resource('/schedule', CalendarController::class);
+Route::resource('/calendar', CalendarController::class);
